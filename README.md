@@ -72,6 +72,36 @@ data
     │
     │── ......          # dataset splits, miscs
 ```
+
+```
+3D Models                # Root folder containing all 3D models
+├── Vehicules            # Category of models
+│   ├── Car              # List of multiple 3D models for a specific ojects
+│   │      ├── car01.usd
+│   │      ├── car02.usd
+│   │      ├── ......
+│   │
+│   ├──  Bus
+│   │      ├── bus1.usd    
+│   │      ├── bus2.usd
+│   │      ├── ......
+│   │
+|   └──  ...
+|
+│
+├── Circulation
+|   ├── Stop sign
+│   │      ├── ...
+|   │
+|   ├── Trafic light
+│   │      ├── ...
+|   │
+|   │── ......
+|
+|
+└── ...
+   
+```
 Note that the Structured3D floorplan data is generated with the scripts provided by MonteFloor[1]. We thank the authors for kindly sharing the processing scripts, please cite their paper if you use the corresponding resources. 
 
 #### Data preprocessing for floorplan reconstruction (Optional)
